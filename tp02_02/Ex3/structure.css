@@ -1,0 +1,31 @@
+.div0{
+    background-color: rgb(29, 161, 161);
+    text-align: center;
+    height: 400px;
+    width: 60%;
+    margin: auto;
+    padding: 1px;
+}
+.div1{
+    height:10%;
+}
+.div2{
+    background-color: rgb(194, 194, 55);
+    position: relative;
+    height: 80%;
+    width: 80%;
+}
+.div3{
+    background-color: aqua;
+    position: relative;
+    top:-80%;
+    left:80%;
+    height: 80%;
+    width: 20%;
+}
+.div4{
+    background-color: lightgreen;
+    position: relative;
+    bottom: 80%;
+    height: 10%;
+}

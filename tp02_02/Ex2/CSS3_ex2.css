@@ -1,0 +1,15 @@
+p{
+    background-color: lightblue;
+    border: 2px solid;
+    margin:15px;
+    padding: 10px;
+}
+div{
+    opacity: 0.4;
+    position: absolute;
+    top:0;
+    width: 80%;
+}
+div p{
+    background-color: lightcoral;
+}

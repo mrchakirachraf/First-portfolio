@@ -1,0 +1,53 @@
+.Div0{
+    position: relative;
+    left: 30%;
+    width: 35%;
+    height: 700px;
+    border: 3px solid blue;
+    
+}
+.Div1{
+    background-color: blue;
+    text-align: center;
+    position: relative;
+    top: 3%;
+    left: 3%;
+    width: 55%;
+    height: 25%;
+    opacity: 0.7;
+    border: 1px solid;
+}
+.Div2{
+    background-color: green;
+    text-align: center;
+    position: relative;
+    top: -2%;
+    left: 42%;
+    width: 55%;
+    height: 28%;
+    opacity: 0.7;
+    border: 1px solid;
+}
+.Div3{
+    background-color: yellowgreen;
+    text-align: center;
+    position: relative;
+    top: -7%;
+    left: 3%;
+    width: 55%;
+    height: 28%;
+    opacity: 0.7;
+    border: 1px solid;
+}
+.Div4
+{
+    background-color: beige;
+    text-align: center;
+    position: relative;
+    top: -12%;
+    left: 42%;
+    width: 55%;
+    height: 28%;
+    opacity: 0.7;
+    border: 1px solid;
+}

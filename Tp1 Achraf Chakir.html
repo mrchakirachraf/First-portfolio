@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tp1 Achraf Chakir</title>
+</head>
+<body>
+
+<br>
+<fieldset>
+    <legend> <font color ="blue"><b>Information personnelle</b></font></legend>
+    <form>
+            Nom(s)<font color="red"><b>*</b></font> : <input name="nom" type="text" placeholder="Saisir le nom" required>
+            <br><br>
+            Prénom(s)<font color="red"><b>*</b></font> : <input name="prenom" type="text" placeholder="Saisir Prénom" required>
+            <br><br>
+            Email<font color="red"><b>*</b></font> : <input name="email" type="email" placeholder="Saisir Email valid" required>
+        
+    <fieldset>
+    <legend><font color ="blue"><b>Naissance :</b></font></legend>
+        
+            Date<font color="red"><b>*</b></font> : <input name="date" type="date" required>
+            <br><br>
+            Ville<font color="red"><b>*</b></font> : <select name="ville" required>
+                <option value=""></option>
+                <option value="Casablanca">Casablanca</option>
+                <option value="Rabat">Rabat</option>
+                <option value="kenitra">Kenitra</option>
+                <option value="autre">autre</option>
+            </select>
+        
+    </fieldset>
+    <fieldset>
+        <legend><font color ="red"><b>Coordonnées :</b></font></legend>
+            Telephone<font color="red"><b>*</b></font> : <input name="Telephone" type="tel" placeholder="10 chiffres" maxlength="10" required>
+            <br><br>
+            Adresse<font color="red"><b>*</b></font> : <textarea name="adress" cols="25" rows="2" required></textarea>
+            <br><br>
+            Ville<font color="red"><b>*</b></font> : <select name="ville_2" required>
+                <option value=""></option>
+                <option value="Casablanca">Casablanca</option>
+                <option value="Rabat">Rabat</option>
+                <option value="kenitra">Kenitra</option>
+                <option value="autre">autre</option>
+            </select>
+            <br><br>
+            Code Postal : <input name="Code Postal" type="text" maxlength="5" placeholder="5 chiffres Max">
+        
+    </fieldset>
+    <fieldset style="background-color: yellow;">
+        <legend><font color="green"><b>Centre d'interet :</b> (cocher au moins 2 choix)</font></legend>
+        <br><font color="green">
+        <input type="checkbox" name="science"> Science
+        <input type="checkbox" name="Litterature"> Litterature
+        <input type="checkbox" name="théatre"> Théatre
+        <br><br><br>
+        <input type="checkbox" name="cuisine">Cuisine
+        <input type="checkbox" name="history">History
+        <input type="checkbox" name="sport">Sport
+        </font>
+        
+        <br><br><br>
+    </fieldset>
+    <fieldset>
+        <legend><font color="red"><b>Tableau en HTML</b></font></legend>
+        <table bgcolor="orange"
+            cellpadding="7"
+            cellspacing="5"
+            border="3"
+            bordercolor="red"
+            rules="100%">
+            <caption align="bottom"> Liste des Coordonnées</caption>
+            <tr align="center">
+                <th colspan="3"  >
+                    champ1-champ2-champ3
+                </th>
+                <th>
+                    champ4
+                </th>
+            </tr>
+            <tr align="center">
+                <td bgcolor="blue">
+                    nom1
+                </td>
+                <td bgcolor="yellow">
+                    nom2
+                </td>
+                <td bgcolor="blue">
+                    nom3
+                </td>
+                <td bgcolor="blue">
+                    nom4
+                </td>
+            </tr>
+            <tr align="center">
+                <td rowspan="2" bgcolor="yellow" valign="top" align="right">
+                    ben abdellah
+                </td>
+                <td bgcolor="green" align="left">
+                    zakaria
+                </td>
+                <td rowspan="2" colspan="2" bgcolor="white" valign="bottom">
+                    meme adresse pour
+                </td>
+            </tr>
+            <tr align="right">
+                <td>
+                    zakaria
+                </td>
+            </tr>
+            <tr align="center">
+                <td>
+                    Ben Elmoundiri
+                </td>
+                <td>
+                    Bahae Eddine
+                </td>
+                <td bgcolor="red" colspan="2">
+                    <font color="white">Aucune valeur saisie</font>
+                </td>
+            </tr>
+        </table>
+    </fieldset>
+    <font color="red"><b>*</b></font> <font><u><b>Champs obligatoires</b></u></font>
+    <br><br><br>
+    <center>
+        <input type="submit">
+        <input type="reset">
+    </center>
+    </form>
+</fieldset>
+</body>
+</html>
